@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Bannerlord.UIExtenderEx.Prefabs2
+   | UIExtenderEx Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Bannerlord.UIExtenderEx.Prefabs2
+   | UIExtenderEx Documentation ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/collapse-container.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                  </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Bannerlord.UIExtenderEx.Prefabs2">
+  <h1 id="Bannerlord_UIExtenderEx_Prefabs2" data-uid="Bannerlord.UIExtenderEx.Prefabs2">Namespace Bannerlord.UIExtenderEx.Prefabs2
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.html">PrefabExtensionInsertPatch</a></p>
+          <p><p>Patch that inserts Content relative to the target node specified in the <a class="xref" href="Bannerlord.UIExtenderEx.Attributes.PrefabExtensionAttribute.html#Bannerlord_UIExtenderEx_Attributes_PrefabExtensionAttribute_XPath">XPath</a> property.<br>
+A single Method or Property should be flagged with the <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionContentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionContentAttribute</a>.<br>
+<strong>Content Attribute Types:</strong></p>
+<ul><li></li><li></li><li></li><li></li><li></li></ul>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionContentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionContentAttribute</a></p>
+          <p><p>Used on a single Property or Method in <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.html">PrefabExtensionInsertPatch</a> to flag it as containing the patch information.<br>
+<strong>Supported Types:</strong></p>
+<ul><li><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>Represents either the name of a file (use <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionFileNameAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionFileNameAttribute</a>),
+    or xml (use <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionTextAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionTextAttribute</a>).</li><li><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.xmldocument">XmlDocument</a>Use <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionXmlDocumentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionXmlDocumentAttribute</a>.
+    The root node of the document and all of its children will be inserted at the target location.</li><li><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a>Use <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionXmlNodeAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionXmlNodeAttribute</a>.
+    The node and all of its children will be inserted at the target location.</li><li><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> of type <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a>Use <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionXmlNodesAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionXmlNodesAttribute</a>.
+    Nodes will be inserted in the same order that they appear in this list at the target location.</li></ul>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionFileNameAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionFileNameAttribute</a></p>
+          <p><p>Used when Content is of type string and refers to a file name.<br>
+The file should have an extension of type .xml, and be located inside of the GUI folder of your module.<br>
+You can include or omit the extension type. I.e. both of the following will work:<br></p>
+<ul><li>YourPatchFileName</li><li>YourPatchFileName.xml</li></ul>
+See <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionContentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionContentAttribute</a> for info on other attribute types.
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionSingleContentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionSingleContentAttribute</a></p>
+          <p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionTextAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionTextAttribute</a></p>
+          <p><p>Use when the property or return of your method is of type <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> and is xml.<br>
+The xml must be properly formatted with a single root node.<br>
+If <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionSingleContentAttribute.html#Bannerlord_UIExtenderEx_Prefabs2_PrefabExtensionInsertPatch_PrefabExtensionSingleContentAttribute_RemoveRootNode">RemoveRootNode</a> is set to false, the root node of the document,
+as well as all of its children, will be inserted at the target location.<br>
+If <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionSingleContentAttribute.html#Bannerlord_UIExtenderEx_Prefabs2_PrefabExtensionInsertPatch_PrefabExtensionSingleContentAttribute_RemoveRootNode">RemoveRootNode</a> is set to true, the root node of the document
+will be ignored, and all of the root node's children will be placed at the target location instead.<br>
+See <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionContentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionContentAttribute</a> for more info.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionXmlDocumentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionXmlDocumentAttribute</a></p>
+          <p><p>Use when the property or return of your method is of type <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.xmldocument">XmlDocument</a>.<br>
+If <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionSingleContentAttribute.html#Bannerlord_UIExtenderEx_Prefabs2_PrefabExtensionInsertPatch_PrefabExtensionSingleContentAttribute_RemoveRootNode">RemoveRootNode</a> is set to false, the root node of the document,
+as well as all of its children, will be inserted at the target location.<br>
+If <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionSingleContentAttribute.html#Bannerlord_UIExtenderEx_Prefabs2_PrefabExtensionInsertPatch_PrefabExtensionSingleContentAttribute_RemoveRootNode">RemoveRootNode</a> is set to true, the root node of the document
+will be ignored, and all of the root node's children will be placed at the target location instead.<br>
+See <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionContentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionContentAttribute</a> for more info.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionXmlNodeAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionXmlNodeAttribute</a></p>
+          <p><p>Use when the property or return of your method is of type <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a>.<br>
+The node and all of its children will be inserted at the target location.<br>
+If <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionSingleContentAttribute.html#Bannerlord_UIExtenderEx_Prefabs2_PrefabExtensionInsertPatch_PrefabExtensionSingleContentAttribute_RemoveRootNode">RemoveRootNode</a> is set to false, the root node of the document,
+as well as all of its children, will be inserted at the target location.<br>
+If <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionSingleContentAttribute.html#Bannerlord_UIExtenderEx_Prefabs2_PrefabExtensionInsertPatch_PrefabExtensionSingleContentAttribute_RemoveRootNode">RemoveRootNode</a> is set to true, the root node of the document
+will be ignored, and all of the root node's children will be placed at the target location instead.<br>
+See <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionContentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionContentAttribute</a> for more info.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionXmlNodesAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionXmlNodesAttribute</a></p>
+          <p><p>Use when the property or return of your method is of type IEnumerable{<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.xmlnode">XmlNode</a>}.<br>
+Nodes will be inserted in the same order that they appear in this list at the target location.<br>
+See <a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionInsertPatch.PrefabExtensionContentAttribute.html">PrefabExtensionInsertPatch.PrefabExtensionContentAttribute</a> for more info.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionSetAttributePatch.html">PrefabExtensionSetAttributePatch</a></p>
+          <p><p>Patch that adds or replaces node's attributes specified by XPath with node from prefab extension</p>
+</p>
+        </td>
+      </tr>
+    </table>
+    <h3 id="structs">Structs
+  </h3>
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.PrefabExtensionSetAttributePatch.Attribute.html">PrefabExtensionSetAttributePatch.Attribute</a></p>
+          <p>
+        </td>
+      </tr>
+    </table>
+    <h3 id="enums">Enums
+  </h3>
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="Bannerlord.UIExtenderEx.Prefabs2.InsertType.html">InsertType</a></p>
+          <p>
+        </td>
+      </tr>
+    </table>
+</article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2020 BUTR
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
